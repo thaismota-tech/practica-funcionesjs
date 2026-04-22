@@ -36,3 +36,11 @@ console.log(mayorDeTres(26, 450, 900));
 console.log(mayorDeTres(49, 12, 85));
 
 // Ejercicio 5: Conversión de grados Celsius a Fahrenheit
+function celsiusAFahrenheit(gradosCelsius) {
+  return (gradosCelsius * 9/5) + 32;
+}
+console.log(celsiusAFahrenheit(5));
+console.log(celsiusAFahrenheit(20));
+console.log(celsiusAFahrenheit(38));
+console.log(celsiusAFahrenheit(1)); 
+console.log(celsiusAFahrenheit(15));
